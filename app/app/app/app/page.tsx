@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 export default function Home() {
   return (
     <main>
@@ -226,6 +227,7 @@ export default function Home() {
         </div>
       </section>
       <Footer />
+      <WhatsAppButton />
 
     </main>
   );
