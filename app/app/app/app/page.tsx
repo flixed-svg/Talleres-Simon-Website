@@ -1,3 +1,11 @@
+import {
+  Wrench,
+  Car,
+  Search,
+  Disc,
+  Snowflake,
+  CircleGauge,
+} from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -47,7 +55,31 @@ export default function Home() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6 mt-8">
-           {services.map((service) => (
+           {services.map((service, index) => (
+  <div
+    key={service.title}
+    className="p-6 rounded-xl bg-slate-100 hover:-translate-y-1 hover:shadow-xl transition"
+  >
+
+    <div className="mb-4 text-orange-500">
+      {index === 0 && <Car size={36} />}
+      {index === 1 && <Search size={36} />}
+      {index === 2 && <Disc size={36} />}
+      {index === 3 && <Wrench size={36} />}
+      {index === 4 && <Snowflake size={36} />}
+      {index === 5 && <CircleGauge size={36} />}
+    </div>
+
+    <h3 className="text-xl font-semibold">
+      {service.title}
+    </h3>
+
+    <p className="mt-2 text-slate-600">
+      {service.description}
+    </p>
+
+  </div>
+))}
   <div
     key={service.title}
     className="p-6 rounded-xl bg-slate-100 hover:shadow-lg transition"
