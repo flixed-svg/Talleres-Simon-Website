@@ -1,6 +1,8 @@
+import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <main>
+      <Navbar />
       <section className="min-h-screen bg-slate-950 text-white flex items-center">
         <div className="container">
           <p className="text-orange-500 font-semibold mb-4">
