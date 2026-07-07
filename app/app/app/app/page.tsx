@@ -13,8 +13,14 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <section className="min-h-screen bg-slate-950 text-white flex items-center">
-        <div className="container">
+      <section
+  className="min-h-screen bg-cover bg-center text-white flex items-center relative"
+  style={{
+    backgroundImage: "url('/images/hero.jpg')",
+  }}
+>
+        <div className="absolute inset-0 bg-slate-950/70"></div>
+        <div className="container relative z-10">
           <p className="text-orange-500 font-semibold mb-4">
             ENGLISH SPEAKING GARAGE • COSTA DEL SOL
           </p>
