@@ -390,7 +390,75 @@ export default function Home() {
   <div className="aspect-video rounded-xl overflow-hidden shadow">
 
     <iframe
-      src="YOUR_GOOGLE_MAPS_EMBED_URL"
+      src=<div className="mt-10">
+  <h3 className="text-2xl font-bold mb-4">
+    Find Us
+  </h3>
+
+  <div className="aspect-video rounded-xl overflow-hidden shadow">
+
+    <iframe
+      src=<div className="mt-10">
+  <h3 className="text-2xl font-bold mb-4">
+    Find Us
+  </h3>
+
+  <div className="aspect-video rounded-xl overflow-hidden shadow">
+
+    <iframe
+      src=<div className="mt-10">
+  <h3 className="text-2xl font-bold mb-4">
+    Find Us
+  </h3>
+
+  <div className="aspect-video rounded-xl overflow-hidden shadow">
+
+    <iframe
+      src="<div className="mt-10">
+  <h3 className="text-2xl font-bold mb-4">
+    Find Us
+  </h3>
+
+  <div className="aspect-video rounded-xl overflow-hidden shadow">
+
+    <iframe
+      src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6390.343731865031!2d-4.105958!3d36.7904295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72470c63d0dc2f%3A0xd323ff93d74d5415!2sTalleres%20Simon!5e0!3m2!1sen!2suk!4v1783454964932!5m2!1sen!2suk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+      width="100%"
+      height="450"
+      style={{ border: 0 }}
+      loading="lazy"
+      allowFullScreen
+    />
+
+  </div>
+</div>"
+      width="100%"
+      height="450"
+      style={{ border: 0 }}
+      loading="lazy"
+      allowFullScreen
+    />
+
+  </div>
+</div>"
+      width="100%"
+      height="450"
+      style={{ border: 0 }}
+      loading="lazy"
+      allowFullScreen
+    />
+
+  </div>
+</div>
+      width="100%"
+      height="450"
+      style={{ border: 0 }}
+      loading="lazy"
+      allowFullScreen
+    />
+
+  </div>
+</div>
       width="100%"
       height="450"
       style={{ border: 0 }}
