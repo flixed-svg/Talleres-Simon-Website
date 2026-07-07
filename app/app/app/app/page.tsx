@@ -53,6 +53,52 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Trust Stats */}
+<section className="bg-white py-10">
+  <div className="container">
+
+    <div className="grid md:grid-cols-4 gap-6 text-center">
+
+      <div>
+        <h3 className="text-4xl font-bold text-orange-500">
+          20+
+        </h3>
+        <p className="text-slate-600 mt-2">
+          Years Experience
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-4xl font-bold text-orange-500">
+          1000+
+        </h3>
+        <p className="text-slate-600 mt-2">
+          Vehicles Repaired
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-4xl font-bold text-orange-500">
+          5★
+        </h3>
+        <p className="text-slate-600 mt-2">
+          Customer Reviews
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-4xl font-bold text-orange-500">
+          24/7
+        </h3>
+        <p className="text-slate-600 mt-2">
+          Support Available
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       <section className="section">
         <div className="container">
