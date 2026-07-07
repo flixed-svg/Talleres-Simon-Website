@@ -228,43 +228,60 @@ export default function Home() {
 
         </div>
       </section>
-            {/* Why Choose Us */}
-      <section className="section">
-        <div className="container">
+      {/* Reviews */}
+<section className="py-16 bg-slate-100">
+  <div className="container">
 
-          <p className="text-orange-500 font-semibold">
-            WHY CHOOSE US
-          </p>
+    <p className="text-orange-500 font-semibold">
+      CUSTOMER REVIEWS
+    </p>
 
-          <h2 className="text-4xl font-bold mt-3">
-            Reliable Service You Can Count On
-          </h2>
+    <h2 className="text-4xl font-bold mt-3">
+      What Our Customers Say
+    </h2>
 
-          <div className="grid md:grid-cols-4 gap-6 mt-8">
+    <div className="grid md:grid-cols-3 gap-6 mt-8">
 
-            {[
-              "English Speaking Mechanics",
-              "Years of Experience",
-              "Modern Diagnostic Equipment",
-              "Honest Advice & Fair Prices",
-            ].map((item) => (
-              <div
-                key={item}
-                className="p-6 rounded-xl bg-slate-100"
-              >
-                <h3 className="font-semibold text-lg">
-                  {item}
-                </h3>
+      {[
+        {
+          text: "Excellent service, honest advice and very professional.",
+          name: "Happy Customer",
+        },
+        {
+          text: "A reliable English speaking garage. Highly recommended.",
+          name: "Costa del Sol Customer",
+        },
+        {
+          text: "Great workmanship and fair prices.",
+          name: "Local Driver",
+        },
+      ].map((review) => (
+        <div
+          key={review.name}
+          className="bg-white p-6 rounded-xl shadow"
+        >
 
-                <p className="mt-3 text-slate-600">
-                  Professional workmanship and customer-focused service.
-                </p>
-              </div>
-            ))}
-
+          <div className="text-orange-500 text-xl">
+            ★★★★★
           </div>
 
+          <p className="mt-4 text-slate-600">
+            {review.text}
+          </p>
+
+          <p className="mt-4 font-semibold">
+            {review.name}
+          </p>
+
         </div>
+      ))}
+
+    </div>
+
+  </div>
+</section>
+      
+
       </section>
             {/* Contact */}
       <section id="contact" className="section bg-slate-950 text-white">
