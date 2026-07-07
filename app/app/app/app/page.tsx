@@ -47,14 +47,20 @@ export default function Home() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6 mt-8">
-            {[
-              "Vehicle Servicing",
-              "Engine Diagnostics",
-              "Brake Repairs",
-              "Clutches",
-              "Air Conditioning",
-              "Tyres",
-            ].map((service) => (
+           {services.map((service) => (
+  <div
+    key={service.title}
+    className="p-6 rounded-xl bg-slate-100 hover:shadow-lg transition"
+  >
+    <h3 className="text-xl font-semibold">
+      {service.title}
+    </h3>
+
+    <p className="mt-2 text-slate-600">
+      {service.description}
+    </p>
+  </div>
+))}
               <div
                 key={service}
                 className="p-6 rounded-xl bg-slate-100"
