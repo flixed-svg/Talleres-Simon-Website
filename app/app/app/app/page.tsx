@@ -174,6 +174,56 @@ export default function Home() {
 
         </div>
       </section>
+            {/* Contact */}
+      <section id="contact" className="section bg-slate-950 text-white">
+        <div className="container">
+
+          <p className="text-orange-500 font-semibold">
+            CONTACT US
+          </p>
+
+          <h2 className="text-4xl font-bold mt-3">
+            Book Your Vehicle Service Today
+          </h2>
+
+          <p className="mt-6 text-slate-300 max-w-2xl">
+            Contact Talleres Simon for servicing, repairs and diagnostics
+            in Vélez-Málaga and the Costa del Sol.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-6 mt-8">
+
+            <div className="p-6 rounded-xl bg-slate-800">
+              <h3 className="font-semibold text-xl">
+                Call Us
+              </h3>
+              <p className="mt-2">
+                +34 XXX XXX XXX
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-slate-800">
+              <h3 className="font-semibold text-xl">
+                WhatsApp
+              </h3>
+              <p className="mt-2">
+                Message us directly
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-slate-800">
+              <h3 className="font-semibold text-xl">
+                Location
+              </h3>
+              <p className="mt-2">
+                Vélez-Málaga, Spain
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
 
     </main>
   );
