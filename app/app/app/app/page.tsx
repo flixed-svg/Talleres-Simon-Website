@@ -280,6 +280,56 @@ export default function Home() {
 
   </div>
 </section>
+      {/* FAQ */}
+<section className="py-16 bg-white">
+  <div className="container">
+
+    <p className="text-orange-500 font-semibold">
+      FAQ
+    </p>
+
+    <h2 className="text-4xl font-bold mt-3">
+      Frequently Asked Questions
+    </h2>
+
+    <div className="mt-8 space-y-4">
+
+      {[
+        {
+          q: "Do you speak English?",
+          a: "Yes, Talleres Simon provides English speaking customer service.",
+        },
+        {
+          q: "What vehicle repairs do you offer?",
+          a: "We offer servicing, diagnostics, brakes, air conditioning and general repairs.",
+        },
+        {
+          q: "How do I book my vehicle?",
+          a: "Contact us by phone or WhatsApp and we will arrange an appointment.",
+        },
+        {
+          q: "Where are you located?",
+          a: "We are located in Vélez-Málaga serving customers across the Costa del Sol.",
+        },
+      ].map((item) => (
+        <div
+          key={item.q}
+          className="border rounded-lg p-5"
+        >
+          <h3 className="font-bold text-lg">
+            {item.q}
+          </h3>
+
+          <p className="mt-2 text-slate-600">
+            {item.a}
+          </p>
+        </div>
+      ))}
+
+    </div>
+
+  </div>
+</section>
       
 
       </section>
