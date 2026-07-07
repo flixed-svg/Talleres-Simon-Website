@@ -136,6 +136,44 @@ export default function Home() {
 
         </div>
       </section>
+            {/* Why Choose Us */}
+      <section className="section">
+        <div className="container">
+
+          <p className="text-orange-500 font-semibold">
+            WHY CHOOSE US
+          </p>
+
+          <h2 className="text-4xl font-bold mt-3">
+            Reliable Service You Can Count On
+          </h2>
+
+          <div className="grid md:grid-cols-4 gap-6 mt-8">
+
+            {[
+              "English Speaking Mechanics",
+              "Years of Experience",
+              "Modern Diagnostic Equipment",
+              "Honest Advice & Fair Prices",
+            ].map((item) => (
+              <div
+                key={item}
+                className="p-6 rounded-xl bg-slate-100"
+              >
+                <h3 className="font-semibold text-lg">
+                  {item}
+                </h3>
+
+                <p className="mt-3 text-slate-600">
+                  Professional workmanship and customer-focused service.
+                </p>
+              </div>
+            ))}
+
+          </div>
+
+        </div>
+      </section>
 
     </main>
   );
