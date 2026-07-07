@@ -382,6 +382,24 @@ export default function Home() {
           </div>
 
         </div>
+        <div className="mt-10">
+  <h3 className="text-2xl font-bold mb-4">
+    Find Us
+  </h3>
+
+  <div className="aspect-video rounded-xl overflow-hidden shadow">
+
+    <iframe
+      src="YOUR_GOOGLE_MAPS_EMBED_URL"
+      width="100%"
+      height="450"
+      style={{ border: 0 }}
+      loading="lazy"
+      allowFullScreen
+    />
+
+  </div>
+</div>
       </section>
       <Footer />
       <WhatsAppButton />
